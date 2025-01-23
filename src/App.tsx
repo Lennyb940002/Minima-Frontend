@@ -48,7 +48,7 @@ function App() {
     setSubmitStatus(null);
 
     try {
-      const response = await fetch('https://minima-backend-rkk9.vercel.app/api/emails', { // Assurez-vous que l'URL est correcte
+      const response = await fetch('http://localhost:4000/api/emails', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
